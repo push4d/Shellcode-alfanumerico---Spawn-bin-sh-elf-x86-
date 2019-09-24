@@ -85,5 +85,5 @@ popad    ; 61 = a ; Se guardan todos esos registros (Ignorando ESP)
 ; 19 bytes usados en este bloque de codigo
 
 ; Se ejecuta execve
-dw 0x7a4d ; 4d 7a = M 7a ; Cuando se descifre, resulta en la instruccion: int 0x80  ->  cd 80 (Bytes no imprimibles)
+dw 0x7a4d ; 4d 7a = M z ; Cuando se descifre, resulta en la instruccion: int 0x80  ->  cd 80 (Bytes no imprimibles)
 ; 2 bytes usados en este bloque de codigo
