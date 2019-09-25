@@ -7,7 +7,7 @@
 ; Para a-z: \x61-\x7a
 ;
 ; Comando de compilacion:
-; nasm -f elf shellcode_linux_x86_alfanumerico.nasm; ld -m elf_i386 -s -o shellcode_linux_x86_alfanumerico shellcode_linux_x86_alfanumerico.o; objdump -d ./shellcode_linux_x86_alfanumerico|grep '[0-9a-f]:'|grep -v 'file'|cut -f2 -d:|cut -f1-6 -d' '|tr -s ' '|tr '\t' ' '|sed 's/ $//g'|sed 's/ /\\x/g'|paste -d '' -s |sed 's/^/"/'|sed 's/$/"/g'
+; nasm -f elf shellcode_linux_x86_alfanumerico_PoC.nasm; ld -m elf_i386 -s -o shellcode_linux_x86_alfanumerico_PoC shellcode_linux_x86_alfanumerico_PoC.o; objdump -d ./shellcode_linux_x86_alfanumerico_PoC|grep '[0-9a-f]:'|grep -v 'file'|cut -f2 -d:|cut -f1-6 -d' '|tr -s ' '|tr '\t' ' '|sed 's/ $//g'|sed 's/ /\\x/g'|paste -d '' -s |sed 's/^/"/'|sed 's/$/"/g'
 ;
 ; (PROMO) Ha sido mucho mas facil crear este shellcode gracias a: https://defuse.ca/online-x86-assembler.htm
 ; (GUIAS) Donde aprender como realizar Shellcode alfanumerico: http://phrack.org/issues/57/15.html
