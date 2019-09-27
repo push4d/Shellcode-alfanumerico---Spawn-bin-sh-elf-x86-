@@ -48,8 +48,7 @@ dec eax ; 48 = H
 ; en la que termina nuestro shellcode, y cuando hagamos un push estaremos sobreescribiendolo, ya que cuando usamos un
 ; push, estamos restando 4 a ESP para que apunte al ultimo valor insertado en el Stack.
 ; Debido a ello, vamos a crear un espacio de memoria reservada para el ShellCode.
-; Usaremos este espacio para maniobrar hasta que lleguemos el "pop esp", y, por ultimo, guardar la direccion del inicio
-; del shellcode (EAX), luego con pop guardarla en ECX, y ,tras eso, decrementar ESP hasta que sea igual que ECX.
+; Usaremos este espacio para maniobrar hasta que lleguemos el "pop esp", donde guardaremos en ESP el valor de EAX (inicio del shellcode), y ahi no sobreescribiremos el shellcode
 ; Esta memoria ira creciendo segun se use la instruccion "pop", ya que "pop" saca un DWORD del Stack y aumenta 4 al ESP,
 ; sin embargo, en alguna ocasion vamos a usar un push WORD, que solo resta 2 al ESP. De esta manera, empezamos con 4 bytes
 ; de memoria reservada, pero llegamos a tener 9
